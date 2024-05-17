@@ -41,3 +41,68 @@
     font-style: italic;
   }
   
+
+/* Common CSS */
+.yellow{
+    color: #fdbe00;
+}
+.white{
+    color: #ffffff;
+}
+.blue{
+    color: #007dff;
+}
+.blackish{
+    color: #101010;
+}
+
+/* Header CSS */
+.header_top{
+    padding: 15px 0;
+    color: #e1e1e1;
+    background-color: #020e28;
+}
+.header_top ul li i{
+    font-size: 16px;;
+}
+.header_top ul li a{
+    margin-left: 5px;
+    color: #e1e1e1;
+}
+.header_top ul li a:hover{
+    text-decoration: none;
+}
+.navbar-brand img{
+  width: 50%;
+}
+.navbar-nav{
+  align-items: center;
+}
+.navbar-nav li a{
+  margin: 0 10px;
+  text-transform: uppercase;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+  color: #fdbe00 !important;
+  border-bottom: 2px solid #fdbe00;
+}
+.navbar-nav li a:hover{
+  color: #fdbe00 !important;
+  transition: .3s ease-in-out;
+}
+.btn-estimate{
+  padding: 12px 25px;
+  border: 1px solid transparent !important;
+  border-radius: 30px;
+  background: linear-gradient(90deg, rgba(253,190,0,1) 0%, rgba(0,125,255,1) 100%);
+}
+.btn-estimate i{
+  color: #fff;
+}
+.btn-estimate a{
+  font-size: 14px;
+  font-style: normal;
+  color: #fff !important;
+  text-decoration: none;
+  
+}
