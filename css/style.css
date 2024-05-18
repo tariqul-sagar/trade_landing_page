@@ -92,9 +92,12 @@
 }
 .btn-estimate{
   padding: 12px 25px;
-  border: 1px solid transparent !important;
+  border: none !important;
   border-radius: 30px;
   background: linear-gradient(90deg, rgba(253,190,0,1) 0%, rgba(0,125,255,1) 100%);
+}
+.btn-estimate:focus{
+  outline: none;
 }
 .btn-estimate i{
   color: #fff;
@@ -103,6 +106,29 @@
   font-size: 14px;
   font-style: normal;
   color: #fff !important;
-  text-decoration: none;
-  
+  text-decoration: none; 
+}
+
+/* About CSS */
+
+.about{
+  background-image: url(../img/about.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.about_h1{
+  margin-top: 140px;
+  font-size: 64px;
+}
+.about_description{
+  font-size: 20px;
+  color: #fcfeff;
+  text-transform: uppercase;
+}
+.carousel-item{
+  margin: 30px 0;
+}
+.carousel-item img{
+  width: 100%;
 }
