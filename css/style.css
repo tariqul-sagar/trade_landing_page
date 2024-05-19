@@ -371,3 +371,54 @@
 .btn_need:focus{
   outline: none;
 }
+
+/* Footer CSS */
+
+.footer_top{
+  background-color: #020e28;
+  text-align: center;
+}
+.footer_logo img{
+  width: 250px;
+}
+.footer_body{
+  background-color: #020e28;
+}
+.footer_col_header{
+  margin: 15px 0 20px;
+  font-size: 20px;
+  color: #fff;
+  line-height: 24px;
+}
+.footer_col_p{
+  font-size: 14px;
+  color: #fff;
+}
+.col_content1 ul li i{
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #000;
+  border-radius: 50%;
+}
+.f_c_h4{
+  text-transform: capitalize;
+}
+.col_content2 ul li a, .col_content3 ul li a{
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+}
+.col_content2 ul li a i{
+  margin-right: 10px;
+  color: #fdbe00;
+  font-size: 18px;
+}
+.footer_foot{
+  padding: 20px 0 10px;
+  font-size: 12px;
+  background-color: #000818;
+}
+.btn_foot{
+  margin-bottom: 20px;
+}

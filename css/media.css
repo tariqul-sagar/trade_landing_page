@@ -109,6 +109,9 @@
       .need_h3{
         font-size: 28px;
       }
+      /* Footer */
+
+      
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -195,7 +198,7 @@
       }
       /* Need CSS */
       .need-overlay{
-        height: 125vh;
+        height: 145vh;
       }
       .need_img img{
         display: none;
@@ -290,6 +293,10 @@
       .brands_img1 img{
         top: -3%;
         left: 7%;
+      }
+      /* Need section CSS */
+      .need_img img{
+        width: 100%;
       }
 }
 
