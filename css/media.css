@@ -93,6 +93,22 @@
         top: -7%;
         left: -30%;
       }
+      /* Need CSS */
+      .need-overlay{
+        height: 135vh;
+      }
+      .need_img img{
+        display: none;
+      }
+      .need_box{
+        padding: 30px 15px;
+        width: 100%;
+        margin: auto;
+        background: transparent;
+      }
+      .need_h3{
+        font-size: 28px;
+      }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -176,6 +192,22 @@
       .brands_img1 img{
         top: -7%;
         left: -10%;
+      }
+      /* Need CSS */
+      .need-overlay{
+        height: 125vh;
+      }
+      .need_img img{
+        display: none;
+      }
+      .need_box{
+        padding: 30px 20px;
+        width: 100%;
+        margin: auto;
+        background: transparent;
+      }
+      .need_h3{
+        font-size: 26px;
       }
       
 }
