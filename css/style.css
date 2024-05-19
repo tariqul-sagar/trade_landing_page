@@ -184,7 +184,7 @@
   position: absolute;
   content: '';
   bottom: 0;
-  left: 17.5%;
+  left: 5%;
 }
 .why_anncar_content{
   margin: auto;
@@ -202,4 +202,64 @@
 }
 .anncar-p{
   line-height: 24px;
+}
+
+/* Parts section CSS */
+
+.parts{
+  background-image: url(../img/parts_bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.parts-bg{
+  padding: 40px 0;
+  background-color: rgba(2,14,40,0.8)
+}
+.parts_content{
+  margin-bottom: 30px;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+}
+.parts_img_icon{
+  margin-bottom: 25px;
+}
+.parts_img_4{
+  margin-left: -12px;
+  margin-bottom: 35px;
+}
+.parts_h3{
+  font-size: 30px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.parts_p{
+  color: #fff;
+  line-height: 24px;
+}
+.btn_parts{
+  padding: 20px;
+  font-style: italic;
+  color: #fff;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background-color: transparent;
+}
+.btn_parts i{
+  margin-left: 15px;
+}
+.btn_parts:hover{
+  color: #007dff;
+  border: 1px solid #fff;
+  transition: .3s ease-in-out;
+  background-color: #fff;
+}
+.parts_content:hover{
+  border: 1px solid #fff;
+  transition: .3s ease-in-out;
+}
+.parts_content:hover .underline{
+  width: 100%;
+  transition: 1s ease-in-out;
 }
