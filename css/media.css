@@ -1,6 +1,7 @@
 /* Extra small devices (portrait phones, less than 576px) */
 
 @media (max-width: 575.98px) {
+    /* Header CSS */
     .header_top ul li:nth-child(2){
         display: none;
     }
@@ -17,13 +18,122 @@
       }
       .about_carousel img{
         margin: 0 auto;
-        width: 340px !important;
+        width: 300px !important;
+      }
+      /* Feature section CSS */
+      .feature{
+        margin: 50px 10px 10px;
+      }
+      .feature_box{
+        box-shadow: none;
+      }
+      .card_box{
+        margin-bottom: 20px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 12px 6px rgba(244,244,244,1);
+      }
+      .card_box_title{
+        margin-left: 15px;
+        font-size: 22px;
+      }
+      .card_box_description{
+        margin-top: 25px;
+      }
+      .f_img_box{
+        width: 58%;
+        margin: 0 auto;
+      }
+      .feature_img_box{
+        width: 270px;
+        height: 270px;
+        position: relative;
+      }
+      .feature_img_box2 img{
+        width: 255px;
+        height: 255px;
+        background-color: #007dff;
+        border: 8px solid #fff;
+        border-radius: 50%;
+        position: absolute;
+        content: '';
+        bottom: 0;
+        left: 7.5%;
+      }
+      .anncar_h2{
+        margin-top: 60px;
+        font-size: 30px;
+        text-align: center;
+      }
+      .underline{
+        margin: 20px auto 25px;
+      }
+      .anncar-p{
+        text-align: center;
       }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 
-@media (min-width: 576px) and (max-width: 767.98px) {}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* Feature section CSS */
+    .feature{
+        margin: 50px 10px 10px;
+      }
+      .feature_box{
+        box-shadow: none;
+      }
+      .card_box{
+        margin-bottom: 20px;
+        padding: 60px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 12px 6px rgba(244,244,244,1);
+      }
+      .card_img{
+        padding-right: 0;
+      }
+      .card_box_content{
+        margin: auto;
+        padding-left: 0;
+      }
+      .card_box_title{
+        margin-left: 15px;
+        font-size: 22px;
+      }
+      .card_box_description{
+        margin-top: 25px;
+      }
+      .f_img_box{
+        width: 56%;
+        margin: 0 auto;
+      }
+      .feature_img_box{
+        width: 270px;
+        height: 270px;
+        position: relative;
+      }
+      .feature_img_box2 img{
+        width: 255px;
+        height: 255px;
+        background-color: #007dff;
+        border: 8px solid #fff;
+        border-radius: 50%;
+        position: absolute;
+        content: '';
+        bottom: 0;
+        left: 8%;
+      }
+      .anncar_h2{
+        margin-top: 60px;
+        font-size: 30px;
+        text-align: center;
+      }
+      .underline{
+        margin: 20px auto 25px;
+      }
+      .anncar-p{
+        text-align: center;
+      }
+}
 
 /* Medium devices (tablets, 768px and up) */
 
@@ -31,6 +141,27 @@
     /* About Section CSS */
     .about_carousel img{
         margin: 0 auto;
+      }
+      /* Feature section CSS */
+    .feature{
+        margin: 50px 10px 10px;
+      }
+      .card_box{
+        border-radius: 8px;
+      }
+      .card_img{
+        padding-right: 0;
+      }
+      .card_box_content{
+        margin: auto;
+        padding-left: 0;
+      }
+      .card_box_title{
+        margin-left: 40px;
+        font-size: 20px;
+      }
+      .card_box_description{
+        margin-top: 25px;
       }
 }
 
@@ -47,6 +178,17 @@
     .about_carousel img{
         margin: 0 auto;
         width: 480px !important;
+      }
+      /* Feature section */
+      .card_box_content{
+        margin: auto;
+      }
+      .card_box_title{
+        padding-right: 40px;
+        font-size: 20px;
+      }
+      .card_box_description{
+        margin-top: 25px;
       }
 }
 
