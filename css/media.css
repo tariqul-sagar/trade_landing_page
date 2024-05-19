@@ -85,6 +85,14 @@
       .parts_h3{
         line-height: 38px;
       }
+      /* Brands CSS */
+      .brands_img{
+        margin-top: 60px;
+      }
+      .brands_img1 img{
+        top: -7%;
+        left: -30%;
+      }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -157,6 +165,19 @@
       .parts_h3{
         line-height: 38px;
       }
+      /* Brands CSS */
+      .brands_img{
+        margin-top: 60px;
+      }
+      .brands_img2{
+        float: none;
+        text-align: center;
+      }
+      .brands_img1 img{
+        top: -7%;
+        left: -10%;
+      }
+      
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -226,6 +247,18 @@
         text-align: center;
         line-height: 24px;
       }
+      /* Brands CSS */
+      .brands_img{
+        margin-top: 80px;
+      }
+      .brands_img2{
+        float: none;
+        text-align: center;
+      }
+      .brands_img1 img{
+        top: -3%;
+        left: 7%;
+      }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -259,6 +292,18 @@
       }
       .feature_img_box2 img{
         left: 6%;
+      }
+      /* Brands CSS */
+      .brands_img{
+        margin-top: 120px;
+      }
+      .brands_img2{
+        float: none;
+        text-align: center;
+      }
+      .brands_img1 img{
+        top: 5%;
+        left: -7%;
       }
 }
 
